@@ -16,6 +16,7 @@ import scala.util.{Try, Using}
 
 object CVEJsonMongoDB {
     def main(args: Array[String]): Unit = {
+        // need to add the password
         val connectionString = "mongodb+srv://user0:@cluster0.nrkl0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
         // Construct a ServerApi instance using the ServerApi.builder() method
         val serverApi = ServerApi.builder.version(ServerApiVersion.V1).build()
